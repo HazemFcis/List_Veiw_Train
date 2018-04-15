@@ -18,6 +18,8 @@ import java.util.List;
 
 public class Train_Adapter extends ArrayAdapter<String> {
     Context context1;
+//    Context context1;
+
     public Train_Adapter(@NonNull Context context, int resource, ArrayList<String> l) {
         super(context,0, l);
         context1=context;
